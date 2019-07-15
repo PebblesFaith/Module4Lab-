@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Validation RegEx</title>
+</head>
+<body>
+    <div class="commentFormWrapper">
+        <div class="commentFormTitle">Comment Below</div>
+        <div class="commentFormLeftWrapper">
+            <div class="commentFormLabel">Name</div>
+            <div class="commentFormLabel">Phone Number</div>
+            <div class="commentFormLabel">Email</div>
+            <div class="commentFormLabel">Comment</div>
+        </div>
+
+        <div class="commentFormRightWrapper">
+            <form>
+                <input id="commentName" onkeyup="validateName()"  class="commentFormInput" type="text" />
+                <label id="commentNamePrompt"></label>
+                <br />
+
+                <input class="commentFormInput" type="text" />
+                <label>Error:</label>
+                <br />
+
+                <input class="commentFormInput" type="text" />
+                <label>Error:</label>
+                <br />
+
+                <textarea class="commentFormTextArea" type="text" />
+                <label>Error:</label>
+                <br />
+            </form>
+        </div>
+
+
+
+        <div class="clearBoth"></div>
+
+    </div>
+
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
